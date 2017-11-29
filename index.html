@@ -18,7 +18,7 @@
 
    
 <!-- Google Map -->
-        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAEN1rdagvHawQf10hosRPmAF3VsiCIpus&callback=initMap&libraries=places"></script>
+      
 
 		<!-- Libs and Plugins CSS -->
 		<link rel="stylesheet" href="assets/inc/bootstrap/css/bootstrap.min.css">
@@ -623,7 +623,7 @@
                         <div class="page-header text-center wow fadeInDown" data-wow-delay="0.4s">
                             <h2>Our Team</h2>
                             <div class="devider"></div>
-                            <p class="subtitle">Meat our experts</p>
+                            <p class="subtitle">Meat our expert</p>
                         </div>
                     </div>
                 </div>
@@ -632,7 +632,7 @@
                     <div class="row">
                         <div class="team-items">
                             <div class="col-md-2">
-                                <div class="team-container wow bounceIn" data-wow-delay="0.2s">
+                                <!--<div class="team-container wow bounceIn" data-wow-delay="0.2s">
                                     <div class="team-item">
                                         <div class="team-triangle">
                                             <div class="content">
@@ -644,10 +644,10 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </div>-->
                             </div>
-                            <div class="col-md-2">
-                                <div class="team-container wow bounceIn" data-wow-delay="0.3s">
+                            <div class="col-md-1">
+                                <!--<div class="team-container wow bounceIn" data-wow-delay="0.3s">
                                     <div class="team-item">
                                         <div class="team-triangle">
                                             <div class="content">
@@ -659,7 +659,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </div>-->
                             </div>
                             <div class="col-md-2">
                                 <div class="team-container wow bounceIn" data-wow-delay="0.4s">
@@ -678,7 +678,7 @@
                             </div>
     
                             <div class="col-md-2">
-                                <div class="team-container wow bounceIn" data-wow-delay="0.5s">
+                               <!-- <div class="team-container wow bounceIn" data-wow-delay="0.5s">
                                     <div class="team-item">
                                         <div class="team-triangle">
                                             <div class="content">
@@ -690,10 +690,10 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </div>-->
                             </div>
                             <div class="col-md-2">
-                                <div class="team-container wow bounceIn" data-wow-delay="0.6s">
+                                <!--<div class="team-container wow bounceIn" data-wow-delay="0.6s">
                                     <div class="team-item">
                                         <div class="team-triangle">
                                             <div class="content">
@@ -705,10 +705,10 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </div>-->
                             </div>
                             <div class="col-md-2">
-                                <div class="team-container wow bounceIn" data-wow-delay="0.7s">
+                                <!--<div class="team-container wow bounceIn" data-wow-delay="0.7s">
                                     <div class="team-item">
                                         <div class="team-triangle">
                                             <div class="content">
@@ -720,10 +720,10 @@
                                             </div>  
                                         </div>
                                     </div>
-                                </div>
+                                </div>-->
                             </div>
                             <div class="col-md-2">
-                                <div class="team-container wow bounceIn" data-wow-delay="0.8s">
+                                <!--<div class="team-container wow bounceIn" data-wow-delay="0.8s">
                                     <div class="team-item">
                                         <div class="team-triangle">
                                             <div class="content">
@@ -735,7 +735,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </div>-->
                             </div>
                             <div class="clearfix"></div>
                         </div>  
@@ -933,7 +933,8 @@
                         	<div class="col-sm-6">
                                 <div class="contact-form">
                                 	<h4 style="margin-bottom:2px !important">Locate us</h4>
-                                    <div id="map"></div>
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3910.290665707318!2d77.43565891435766!3d11.458933391860622!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba93dbd1d208ac9%3A0xdf85dae9eb3adfc6!2sWarrior+Video+Editing+%26+Designing!5e0!3m2!1sen!2sin!4v1511974851143" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                                    <!--<div id="map"></div>-->
                                 </div>	
                             </div>
                                                                                 
@@ -1026,41 +1027,42 @@
 
 		<!-- Theme JS -->
 		<script src="assets/js/theme.js"></script>
+          <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAEN1rdagvHawQf10hosRPmAF3VsiCIpus&callback=initMap&libraries=places"></script>
 
     </body> 
         
             
 </html>
 <script type="text/javascript">
-    function initMap() {
-        var uluru = { lat: 11.458932, lng: 77.437871 };
-        var map = new google.maps.Map(document.getElementById('map'), {
-            zoom: 15,
-            center: uluru
-        });
-        var marker = new google.maps.Marker({
-            position: uluru,
-            map: map
-        });
-        //var infowindow = new google.maps.InfoWindow();
-        //var service = new google.maps.places.PlacesService(map);
+    //function initMap() {
+    //    var uluru = { lat: 11.458932, lng: 77.437871 };
+    //    var map = new google.maps.Map(document.getElementById('map'), {
+    //        zoom: 15,
+    //        center: uluru
+    //    });
+    //    //var marker = new google.maps.Marker({
+    //    //    position: uluru,
+    //    //    map: map
+    //    //});
+    //    var infowindow = new google.maps.InfoWindow();
+    //    var service = new google.maps.places.PlacesService(map);
 
-        //service.getDetails({
-        //    placeId: 'ChIJX7v1HL09qTsRg9eBK0lBlEU'
-        //}, function (place, status) {
-        //    if (status === google.maps.places.PlacesServiceStatus.OK) {
-        //        var marker = new google.maps.Marker({
-        //            map: map,
-        //            position: place.geometry.location
-        //        });
-        //        google.maps.event.addListener(marker, 'click', function () {
-        //            infowindow.setContent('<div><strong>' + place.name + '</strong><br>' +
-        //              'Place ID: ' + place.place_id + '<br>' +
-        //              place.formatted_address + '</div>');
-        //            infowindow.open(map, this);
-        //        });
-        //    }
-        //});
+    //    service.getDetails({
+    //        placeId: 'ChIJX7v1HL09qTsRg9eBK0lBlEU'
+    //    }, function (place, status) {
+    //        if (status === google.maps.places.PlacesServiceStatus.OK) {
+    //            var marker = new google.maps.Marker({
+    //                map: map,
+    //                position: place.geometry.location
+    //            });
+    //            google.maps.event.addListener(marker, 'click', function () {
+    //                infowindow.setContent('<div><strong>' + place.name + '</strong><br>' +
+    //                  'Place ID: ' + place.place_id + '<br>' +
+    //                  place.formatted_address + '</div>');
+    //                infowindow.open(map, this);
+    //            });
+    //        }
+    //    });
     }
     $(document).ready(function () {
         
